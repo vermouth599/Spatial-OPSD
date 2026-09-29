@@ -1,4 +1,4 @@
-# Spatial-OPSD: Training Core
+# Spatial-OPSD
 
 This repository contains the core training code for **Spatial-OPSD**, an on-policy self-distillation recipe for spatial reasoning with vision-language models. A student generates responses from images and questions. A frozen copy of the model sees the same inputs together with spatial priors and supplies token-level supervision on the student's generated trajectory. The student is evaluated and used without those priors.
 
